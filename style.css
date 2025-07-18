@@ -1,0 +1,77 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #1c1c1c;
+  color: #fff;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  gap:30px;
+}
+.header-nav a {
+opacity: 0,7;
+}
+img{
+  max-width: 100%;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  width: 165px;
+  height: 50px;
+  border-radius: 5px;
+  background: #f6762c;
+  transition:opacity 0.3;
+
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.welcome {
+  margin-top: -100px;
+   background-image: url("../image/vkusnyi-burger-v-studii.jpg");
+background-size: cover;
+background-position: center;
+padding: 240px 0;
+
+}
+.food-list{
+  max-width: 100%;
+
+}
+.food-list .container {
+  display:flex;
+  justify-content: space-between;
+  padding: 35px 35px;
+  gap: 35px;
+}
+.card img {
+  width: 100%;
+  
+}
+
+.footer.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+}
+.container {
+  display: flex;
+  gap: 150px;
+}
+.footer-icon-img {
+  width: 5%;
+}
