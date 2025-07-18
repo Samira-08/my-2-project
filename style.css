@@ -58,20 +58,33 @@ padding: 240px 0;
   padding: 35px 35px;
   gap: 35px;
 }
+.footer-nav{
+  display: inline-block;
+  
+}
+.footer-title {
+  margin-top: 0.5px;
+}
+
 .card img {
   width: 100%;
   
 }
-
-.footer.container {
+.footer-contacts {
   display: flex;
   justify-content: space-between;
-  gap: 150px;
 }
-.container {
-  display: flex;
-  gap: 150px;
-}
+
 .footer-icon-img {
   width: 5%;
+}
+.mail-list{
+  margin-left: 50px;
+}
+.footer-container-all {
+  background-color:rgb(137, 92, 9);
+}
+.footer-icons{
+  display: flex;
+  justify-content: space-between;
 }
